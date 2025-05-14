@@ -194,7 +194,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7b3d6c81f5441ab798bdf17293e583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneGroups: []
+  sceneGroups:
+  - groupName: MainMenu
+    scenes:
+    - sceneReference:
+        asset: {fileID: 102900000, guid: 3f4fb4cf9ea265a4ca9ee75321f814ed, type: 3}
+        guid: 3f4fb4cf9ea265a4ca9ee75321f814ed
+      sceneType: 0
 --- !u!4 &1766329872
 Transform:
   m_ObjectHideFlags: 0
